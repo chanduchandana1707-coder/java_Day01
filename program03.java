@@ -16,7 +16,7 @@ public class program03 {
 
         System.out.println("\nThe 5 names are:");
 
-        for (int i = 0; i < 5 ; i++) {
+        for (int i = 0; i <program03.java 5 ; i++) {
             System.out.println(names[i]);
 
         }
