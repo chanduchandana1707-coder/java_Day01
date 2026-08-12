@@ -1,6 +1,19 @@
-public class Hello {
+import java.util.Scanner;
+
+public class Hello{
     public static void main(String[] args) {
-        System.out.println("Hello, World!"):
-    
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter your name: ");
+        String name = sc.nextLine();
+
+        System.out.print("Enter your age;");
+        int age = sc.nextlnt();
+Hello.java
+        System.out.println("Name:" + name);
+        System.out.println("Age:"+ age);
+
+        sc.close();
+
     }
 }
